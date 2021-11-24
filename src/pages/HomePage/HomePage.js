@@ -1,10 +1,11 @@
 import React from 'react'
+import { Navigate } from 'react-router-dom';
 
 
 function HomePage() {
     return (
         <div>
-            <h1>Home</h1>
+            <Navigate to='/login'/>
         </div>
     )
 }

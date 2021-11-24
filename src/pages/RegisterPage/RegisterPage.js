@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
+import {Link} from  'react-router-dom';
+
 
 function RegisterPage() {
     return (
         <div>
-            
+            <h1>Register</h1>
+
+            <p>
+                Already have an account? <Link to="/login">Sing In</Link> 
+            </p>
         </div>
     )
 }
